@@ -20,7 +20,7 @@ header{
 
 #main{
   background-color:black;
-  width: calc(100% - 200%);
+  width: calc(100% - 200px);
   min-width: 500px; 
   float: left;
  }
