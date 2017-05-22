@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 *{
   margin: 0;
@@ -20,7 +20,7 @@ header{
 
 #main{
   background-color:black;
-  width: calc(100%-200%);
+  width: calc(100% - 200%);
   min-width: 500px; 
   float: left;
  }
