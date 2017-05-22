@@ -1,67 +1,54 @@
-@charset "uft-8"
-
-*{
-  margin:0;
-  padding:0;
- }
-
-body{
-  background-color:red
-  margin: 48px 0 0 0;
- }
-header{
-  background-color:orange
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: +1;
- }
-
-#main{
-  background-color:black
-  width: calc(100%-200%);
-  min-width: 500px; 
-  float: left;
- }
-
-
-.box{
-  background-color:white
-  color: black;
-  width: 240px;
-  height: 80px;
-  margin: 5px;
-  float: left;
-  overflow: hidden;
- }
-
-#main1{
-  background-color:yellow
-  width: 500px; 
-  float: left;
- }
-#main2{
-  background-color:green
-  width: 500px; 
-  float: left;
- }
-aside{
-  background-color:blue
-  width: 200px; 
-  float: right;
-  position: relative;
-  top: 20px;
-  right: 10px;
- }
-footer{
-  background-color:purple
-  clear: both; 
- }
-
-#good_picture{
-  width: 24px; 
-  position: absolute;
-  left: 50px;
-  top: 20px;
- }
+<!DOCUTYPE html>
+<html lang="ja">
+  <head>
+  <meta charset="UFT-8">
+  <link rel="stylesheet" type="text/css" href="css/default.css">  
+  <title>レイアウトの練習</title>
+  </head>
+  <body>
+  <header>
+    <p>ヘッダー</p>
+    <p>ヘッダー</p>
+    <p>ヘッダー</p>
+  </header>
+    <article class="box">
+    <h2>本文１</h2>
+    <p>本文１</p>
+    <p>本文１</p>
+    </article>
+    
+    <article class="box">
+    <h2>本文２</h2>
+    <p>本文２</p>
+      <p>本文２</p>
+      <p>本文２</p>
+      <p>本文２</p>
+    </article>
+    
+    <article class="box">
+    <h2>本文３</h2>
+    <p>本文３</p>
+   </article>
+    
+    <article class="box">
+    <h2>本文４</h2>
+    <p>本文４</p>
+      <p>本文４</p>
+      <p>本文４</p>
+      <p>本文４</p>
+      <p>本文４</p>
+      <p>本文４</p>
+    </article>
+    
+    
+    <aside>
+     <p>サイドバー</p>
+     <p>サイドバー</p>
+     <p>サイドバー</p>
+    </aside>
+    <footer>
+    <p>フッター</p>
+    <p>フッター</p>
+    <p>フッター</p>
+    </footer>
+  </body>
