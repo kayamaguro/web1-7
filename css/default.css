@@ -6,11 +6,11 @@
  }
 
 body{
-  background-color: red;
+  background-color:red;
   margin: 48px 0 0 0;
  }
 header{
-  background-color: orange;
+  background-color:orange;
   position: fixed;
   left: 0;
   top: 0;
@@ -19,7 +19,7 @@ header{
  }
 
 #main{
-  background-color: black;
+  background-color:black;
   width: calc(100%-200%);
   min-width: 500px; 
   float: left;
@@ -27,8 +27,8 @@ header{
 
 
 .box{
-  background-color: white;
-  color: black;
+  background-color:white;
+  color:black;
   width: 240px;
   height: 80px;
   margin: 5px;
@@ -37,17 +37,17 @@ header{
  }
 
 #main1{
-  background-color: yellow;
+  background-color:yellow;
   width: 500px; 
   float: left;
  }
 #main2{
-  background-color: green;
+  background-color:green;
   width: 500px; 
   float: left;
  }
 aside{
-  background-color: blue;
+  background-color:blue;
   width: 200px; 
   float: right;
   position: relative;
@@ -55,7 +55,7 @@ aside{
   right: 10px;
  }
 footer{
-  background-color: purple;
+  background-color:purple;
   clear: both; 
  }
 
